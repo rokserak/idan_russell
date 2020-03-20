@@ -1,19 +1,23 @@
-## idan
-A functional, uncluttered fish theme with usability perks for git users and python developers.
+# idan_russell theme
 
+[Oh my fish](https://github.com/oh-my-fish/oh-my-fish) theme that is combination of already existing themes [idan](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#idan) and [robbyrussell](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#robbyrussell).
 
-![Screenshot of idan theme](https://f.cloud.github.com/assets/22723/544512/14b7cd6e-c251-11e2-82c0-d5b4f41581c7.png)
-
-
-#### Characteristics
-
-##### Left Prompt
+## Prompt
 
 * Current python virtualenv (if applicable)
 * Truncated CWD (just the current folder name)
 * Git branch and dirty state (if applicable)
+* Arrow
 
-##### Right Prompt
+## Installation
 
-* Full CWD path
-* Last error code (if applicable)
+Copy respository into OMF directory and then select it.
+
+```bash
+cp -r idan_russell ~/.local/share/omf/themes
+omf theme idan_russell
+```
+
+## Screenshot
+
+![alt text](https://github.com/rokserak/idan_russell/raw/master/screenshot.png "Screenshot")
