@@ -44,6 +44,6 @@ function fish_prompt
     echo -n -s ' (' $git_info $normal ')'
   end
 
-  echo -n -s " $yellow➜ "
+  echo -n -s " $yellow➜ " $normal
 
 end
